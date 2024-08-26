@@ -1,6 +1,7 @@
 import {
   Links,
   Meta,
+  NavLink,
   Outlet,
   Scripts,
   ScrollRestoration,
@@ -17,6 +18,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <Navbar />
         {children}
         <ScrollRestoration />
         <Scripts />
@@ -27,4 +29,28 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return <Outlet />;
+}
+
+export function Navbar() {
+  return (
+    <nav className="py-2">
+      <ul className="flex items-center justify-center gap-4">
+        <li>
+          <NavLink className="" to="/">
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="" to="document">
+            Documents
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="" to="thanks">
+            thanks
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
 }
