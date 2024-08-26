@@ -1,47 +1,16 @@
-# Welcome to Remix + Cloudflare!
+# My research for studing in USA
 
-- 📖 [Remix docs](https://remix.run/docs)
-- 📖 [Remix Cloudflare docs](https://remix.run/guides/vite#cloudflare)
+CS fields
 
-## Development
-
-Run the dev server:
-
-```sh
-npm run dev
-```
-
-To run Wrangler:
-
-```sh
-npm run build
-npm run start
-```
-
-## Typegen
-
-Generate types for your Cloudflare bindings in `wrangler.toml`:
-
-```sh
-npm run typegen
-```
-
-You will need to rerun typegen whenever you make changes to `wrangler.toml`.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then, deploy your app to Cloudflare Pages:
-
-```sh
-npm run deploy
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+Computer and Information Research Scientist
+Computer and Information Systems Manager
+Computer Hardware Engineer
+Computer Network Architect
+Computer Programmer
+Computer Support Specialist
+Computer Systems Analyst
+Database Administrator
+Information Security Analyst
+Network and Computer Systems Administrator
+Software Developer
+Web Developer
