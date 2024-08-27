@@ -7,7 +7,7 @@ import {
   SortingState,
   useReactTable,
 } from "@tanstack/react-table";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface University {
   name: string;

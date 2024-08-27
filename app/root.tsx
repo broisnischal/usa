@@ -50,6 +50,11 @@ export function Navbar() {
             thanks
           </NavLink>
         </li>
+        <li>
+          <NavLink className="" to="universities">
+            Universitites
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
