@@ -17,7 +17,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="">
         <Navbar />
         {children}
         <ScrollRestoration />
@@ -43,11 +43,6 @@ export function Navbar() {
         <li>
           <NavLink className="" to="document">
             Documents
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="" to="thanks">
-            thanks
           </NavLink>
         </li>
         <li>

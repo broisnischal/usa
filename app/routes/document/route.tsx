@@ -3,7 +3,7 @@ export default function Docs() {
     <div className="px-10">
       <div className="flex flex-col gap-4">
         <ul className="list-disc list-inside">
-          <span>Step 1:</span>
+          <span className="font-bold">Step 1:</span>
           <li>Cover Letter</li>
           <li>Transcript ( 10, 11, 12 )</li>
           <li>Resume | SOP</li>
@@ -18,16 +18,17 @@ export default function Docs() {
           </li>
         </ul>
         <ul className="list-disc list-inside">
-          <span>Step 2:</span>
+          <span className=" font-bold">Step 2:</span>
           <li>Online Application</li>
           <li>Application Fee Payment/Waiver</li>
           <li>Graduate forms</li>
           <li>Department Supplemental form</li>
           <li>Payment Confirmation Page</li>
           <li>Immunization, Financial Statement & Affidavit</li>
+          <li>MRV Fee for visa Appointment</li>
         </ul>
         <ul className="list-disc list-inside">
-          <span>Step 3:</span>
+          <span className="font-bold">Step 3:</span>
 
           <li>I20 copy</li>
           <li>VISA Appointment DS160</li>
